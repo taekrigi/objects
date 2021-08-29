@@ -1,6 +1,6 @@
-package com.my.lotto;
+package com.my.lotto.domain;
 
-import com.my.lotto.rank.RankFactory;
+import com.my.lotto.domain.rank.RankFactory;
 
 import java.util.*;
 import java.util.stream.Collectors;

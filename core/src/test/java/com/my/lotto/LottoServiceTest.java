@@ -1,6 +1,9 @@
 package com.my.lotto;
 
-import com.my.lotto.rank.RankFactory;
+import com.my.lotto.domain.LottoNumber;
+import com.my.lotto.domain.LottoNumbers;
+import com.my.lotto.domain.LottoResult;
+import com.my.lotto.domain.rank.RankFactory;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
