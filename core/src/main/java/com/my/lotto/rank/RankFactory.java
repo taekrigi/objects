@@ -1,7 +1,6 @@
 package com.my.lotto.rank;
 
 import com.my.lotto.LottoNumber;
-import com.my.lotto.LottoNumbers;
 import com.my.lotto.LottoRank;
 import org.springframework.stereotype.Component;
 

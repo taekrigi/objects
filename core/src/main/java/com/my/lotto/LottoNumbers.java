@@ -7,10 +7,10 @@ public class LottoNumbers {
 
     private List<LottoNumber> lottoNumbers;
 
-    private final int LOTTO_SIZE = 6;
+    private static final int LOTTO_SIZE = 6;
 
     public LottoNumbers(List<LottoNumber> lottoNumbers) {
-        checkIfValidNumbers();
+        checkIfValidNumbers(lottoNumbers);
         this.lottoNumbers = lottoNumbers;
     }
 
@@ -18,7 +18,11 @@ public class LottoNumbers {
         return lottoNumbers;
     }
 
-    private void checkIfValidNumbers() {
+    public static int getSize() {
+        return LOTTO_SIZE;
+    }
+
+    private void checkIfValidNumbers(List<LottoNumber> lottoNumbers) {
         if (Objects.isNull(lottoNumbers) || lottoNumbers.size() != LOTTO_SIZE) {
             throw new IllegalArgumentException("LottoNumbers must be size of " + LOTTO_SIZE);
         }
