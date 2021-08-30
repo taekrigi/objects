@@ -1,0 +1,1 @@
+db.createUser({user: 'TEST', pwd: '1234', roles:[{ "role": 'dbOwner', "db": 'test'}] });

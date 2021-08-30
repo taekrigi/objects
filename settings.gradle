@@ -1,4 +1,5 @@
 rootProject.name = 'objects'
 
 include 'core'
+include 'dbsync'
 
